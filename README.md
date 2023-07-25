@@ -1,1 +1,1 @@
-Changwoo's homepage for publishing
+Jinyoon's homepage for publishing
