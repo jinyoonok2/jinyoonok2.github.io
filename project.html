@@ -15,15 +15,15 @@
         <!-- Responsive navbar-->
         <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
             <div class="container">
-                <a class="navbar-brand" href="#!">Jinyoon Kim's Web Page</a>
+                <a class="navbar-brand" href="index.html">Jinyoon Kim's Web Page</a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
                 <div class="collapse navbar-collapse" id="navbarSupportedContent">
                     <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
-                        <li class="nav-item"><a class="nav-link active" aria-current="page" href="#!">Home</a></li>
-                        <li class="nav-item"><a class="nav-link" href="#!">Research</a></li>
-                        <li class="nav-item"><a class="nav-link" href="#!">Project</a></li>
-                        <li class="nav-item"><a class="nav-link" href="#!">Activities</a></li>
-                        <li class="nav-item"><a class="nav-link" href="#!">Service</a></li>
+                        <li class="nav-item"><a class="nav-link active" aria-current="page" href="index.html">Home</a></li>
+                        <li class="nav-item"><a class="nav-link" href="research.html">Research</a></li>
+                        <li class="nav-item"><a class="nav-link" href="project.html">Project</a></li>
+                        <li class="nav-item"><a class="nav-link" href="activities.html">Activities</a></li>
+                        <li class="nav-item"><a class="nav-link" href="service.html">Service</a></li>
                     </ul>
                 </div>
             </div>
@@ -34,21 +34,80 @@
                 <img class="img-fluid rounded-circle mb-4" src="assets/img/jinyoon-kim.png" alt="..." />
                 <h1 class="text-white fs-3 fw-bolder">Jinyoon Kim</h1>
                 <p class="text-white-50 mb-0">Computer Science</p>
+                <!-- CV/Resume Button -->
+                <div class="mt-4">
+                    <a href="assets/pdfs/CV Jinyoon Kim.pdf" class="btn btn-night-blue" target="_blank">CV/Resume</a>
+                </div>
             </div>
         </header>
-        <!-- Content section-->
-        <section class="py-5">
-            <div class="container my-5">
-                <div class="row justify-content-center">
-                    <div class="col-lg-6">
-                        <h2>About</h2>
-                        <p class="lead">Research Interests: Object Recognition, Image Segmentation (2D, 3D spatial), Transformers, Data Synthesis, Human Motion Capture, Video Language Models, and the intersection between Computer Vision and Natural Language Processing.</p>
-                        <p class="mb-0">I am in the process of completing my Bachelor's degree in Computer Science at Penn State University, Harrisburg Campus.</p>
-                        <p class="mb-0">My research interests span various subjects within Artificial Intelligence, particularly in the field of Computer Vision, but also including Natural Language Processing Models. My goal is to research and refine the algorithms and applications of these technologies to benefit people across different societal bounds, from underdeveloped regions to urban cities.</p>
+        <!-- Research Section -->
+        <section class="research-section py-5">
+            <div class="container">
+                <!-- Project Item 1 -->
+                <div class="research-item my-3">
+                    <div class="research-image">
+                        <img src="assets/img/dermascopy_skincancer_detection.jpg" alt="Skin Cancer Detection Web App"/>
+                    </div>
+                    <div class="research-content">
+                        <h3>Project with Hershey Medical Center for Skin Cancer Detection Web App (2023)</h3>
+                        <ul>
+                            <li>Collaborating on a project at Hershey Medical Center to create a web application for skin cancer detection.</li>
+                            <li>Using image segmentation and a variety of advanced techniques to develop a highly effective diagnostic tool with superior performance.</li>
+                            <li>Utilizing federated learning to enhance data privacy, allowing local devices to contribute to a shared global model without exposing sensitive information.</li>
+                            <li>Designing the application with a responsive interface for easy transition to a progressive web app, ensuring cross-platform use and offline access.</li>
+                            <li>Integrating saliency maps to identify and visualize crucial image areas, making the diagnostic process transparent and understandable for users.</li>
+                        </ul>
+                        <div class="research-links">
+                            <!-- Keep the buttons as they are, but replace href with actual links -->
+                            <a href="ToBeAnnounced" class="btn">GitHub</a>
+                            <a href="https://www.pennstatehealth.org/locations/milton-s-hershey-medical-center" class="btn">Hershey Medical Center</a>
+                        </div>
+                    </div>
+                </div>
+                <!-- Project Item 2: Plant Village Demo -->
+                <div class="research-item my-3">
+                    <div class="research-image">
+                        <img src="assets/img/plantvildemo.png" alt="Plant Village Demo"/>
+                    </div>
+                    <div class="research-content">
+                        <h3>Plant Village Demo: Machine Learning Classification on Mobile Application (2023)</h3>
+                        <ul>
+                            <li>Created a Java-based Android application using Android Studio to classify plant diseases through images on mobile devices.</li>
+                            <li>Utilized transfer learning techniques with the MobileNet model on the Plant Village dataset for accurate disease identification.</li>
+                            <li>Designed the app to display plant health information and treatment advice from a room database, which is supported by Android Studio.</li>
+                        </ul>
+                        <div class="research-links">
+                            <!-- Replace href with actual links -->
+                            <a href="https://github.com/jinyoonok2/PlantVilageDemo" class="btn">GitHub</a>
+                            <a href="https://youtu.be/7hHgL_G_ou0" class="btn">Video</a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Project Item 3: Face Recognition Program -->
+                <div class="research-item my-3">
+                    <div class="research-image">
+                        <img src="assets/img/face_recognition.png" alt="Face Recognition Program"/>
+                    </div>
+                    <div class="research-content">
+                        <h3>Machine Learning Project: Face Recognition Program (2023)</h3>
+                        <ul>
+                            <li>Built a face recognition system that uses a neural network and PyTorch framework in the Artificial Intelligence course.</li>
+                            <li>Preprocessed video data into image frames for the training dataset.</li>
+                            <li>Applied fine-tuned ResNet for feature extraction.</li>
+                            <li>Implemented a dimensionality reduction layer to distill highly correlated features for enhanced classification.</li>
+                            <li>Analyzed the results of the models and visualized their metrics for the viewers.</li>
+                        </ul>
+                        <div class="research-links">
+                            <!-- Replace href with actual links -->
+                            <a href="https://github.com/jinyoonok2/resNet-face-recognition" class="btn">GitHub</a>
+                            <a href="https://docs.google.com/presentation/d/1PP3E9cJ101VmuAqhLkucYdYnswK4VlD5pARHrsOVML8/edit?usp=drive_link" class="btn">Presentation</a>
+                        </div>
                     </div>
                 </div>
             </div>
         </section>
+        
         <!-- Image element - set the background image for the header in the line below-->
         <div class="py-5 bg-image-full" style="background-image: url('https://source.unsplash.com/4ulffa6qoKA/1200x800')">
             <!-- Put anything you want here! The spacer below with inline CSS is just for demo purposes!-->

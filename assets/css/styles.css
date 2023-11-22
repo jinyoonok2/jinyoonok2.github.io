@@ -10830,3 +10830,112 @@ textarea.form-control-lg {
   background-position: center;
   background-size: cover;
 }
+
+/* custom section */
+body {
+  font-family: 'Times New Roman';
+}
+.section-heading {
+  font-family: arial;
+  font-weight: bold;
+}
+
+.content-section ul li {
+  font-size: 1.4em; /* Adjust this value as needed */
+}
+
+.research-section .research-item {
+  padding: 35px;
+  box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.3); /* 3D effect */
+  background: #fff; /* White background */
+  margin-bottom: 20px; /* Space between items */
+  display: flex;
+  align-items: center
+  /* align-items: center; Vertically center the items */
+}
+
+.research-image {
+  flex-shrink: 0; /* Prevents the image container from shrinking */
+  flex-grow: 0; /* Prevents the image container from growing */
+  flex-basis: 200px; /* Sets the default size of the image container */
+  
+  width: 200px; /* Control width of image container */
+  height: 200px; /* Control height of image container */
+  margin-right: 20px; /* Space between image and content */
+  
+  display: flex; /* Make this a flex container to use justify-content and align-items */
+  overflow: hidden; /* Hide overflow - if content go over box, clip it*/
+}
+
+.research-image img {
+  max-width: 100%; /* Maximum width of the image is 100% of its container */
+  max-height: 100%; /* Maximum height of the image is 100% of its container */
+  object-fit: contain; /* This will ensure the image is contained within the container without stretching */
+}
+
+.research-content {
+  flex-grow: 1; /* Content takes up remaining space, text use space efficiently */
+  padding-left: 20px; /* Space inside the content area */
+}
+
+.research-content .btn {
+  margin-right: 5px; /* Spacing between buttons */
+  text-decoration: none; /* Removes underline from links */
+  padding: 5px 10px; /* Padding inside buttons */
+  border: 1px solid #000; /* Border for buttons */
+  display: inline-block; /* Allows buttons to sit side by side */
+  background-color: #f8f9fa; /* Light background for buttons */
+  color: #333; /* Button text color */
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2); /* Subtle 3D effect for buttons */
+}
+
+.research-content .btn:hover {
+  background-color: #e2e6ea; /* Slightly darker background on hover */
+  box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.3); /* More pronounced shadow on hover */
+}
+
+/* Add this if you want the conference information to stand out */
+.conference-info {
+  font-style: italic;
+  margin-bottom: 10px; /* Space before the list */
+}
+
+
+/* buttons for cv/resume */
+.btn-night-blue {
+  background-color: #003366; /* Night blue background */
+  color: #DAA520; /* Golden text */
+  border: 1px solid #003366; /* Border color same as background for a seamless look */
+  padding: 10px 20px;
+  text-align: center;
+  display: inline-block;
+  border-radius: 20px; /* Adjust for rounded corners if desired */
+  font-weight: bold;
+}
+/* Hover effect for the cv button */
+.btn-night-blue:hover {
+  background-color: #002244; /* A slightly darker shade for the hover state */
+  color: #FFD700; /* Brighter gold color for the text on hover */
+  text-decoration: none; /* Removes underline from the text on hover */
+}
+
+/* Now github and linkedin buttons */
+.icon-btn {
+  color: #fff; /* Icon color */
+  background-color: #333; /* Button background color */
+  border-radius: 50%; /* Circular buttons */
+  width: 40px; /* Width of the button */
+  height: 40px; /* Height of the button */
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  margin-right: 10px; /* Space between buttons */
+}
+
+.icon-btn i {
+  font-size: 20px; /* Icon size */
+}
+
+.icon-btn:hover {
+  background-color: #555; /* Darker background on hover */
+}

@@ -15,15 +15,15 @@
         <!-- Responsive navbar-->
         <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
             <div class="container">
-                <a class="navbar-brand" href="#!">Jinyoon Kim's Web Page</a>
+                <a class="navbar-brand" href="index.html">Jinyoon Kim's Web Page</a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
                 <div class="collapse navbar-collapse" id="navbarSupportedContent">
                     <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
-                        <li class="nav-item"><a class="nav-link active" aria-current="page" href="#!">Home</a></li>
-                        <li class="nav-item"><a class="nav-link" href="#!">Research</a></li>
-                        <li class="nav-item"><a class="nav-link" href="#!">Project</a></li>
-                        <li class="nav-item"><a class="nav-link" href="#!">Activities</a></li>
-                        <li class="nav-item"><a class="nav-link" href="#!">Service</a></li>
+                        <li class="nav-item"><a class="nav-link active" aria-current="page" href="index.html">Home</a></li>
+                        <li class="nav-item"><a class="nav-link" href="research.html">Research</a></li>
+                        <li class="nav-item"><a class="nav-link" href="project.html">Project</a></li>
+                        <li class="nav-item"><a class="nav-link" href="activities.html">Activities</a></li>
+                        <li class="nav-item"><a class="nav-link" href="service.html">Service</a></li>
                     </ul>
                 </div>
             </div>
@@ -34,21 +34,42 @@
                 <img class="img-fluid rounded-circle mb-4" src="assets/img/jinyoon-kim.png" alt="..." />
                 <h1 class="text-white fs-3 fw-bolder">Jinyoon Kim</h1>
                 <p class="text-white-50 mb-0">Computer Science</p>
+                <!-- Buttons -->
+                <div class="mt-4">
+                    <a href="assets/pdfs/CV Jinyoon Kim.pdf" class="btn btn-night-blue" target="_blank">CV/Resume</a>
+                    <a href="https://github.com/jinyoonok2" class="btn icon-btn" target="_blank">
+                        <i class="fab fa-github"></i>
+                    </a>
+                    <a href="ToBeAnnounced" class="btn icon-btn" target="_blank">
+                        <i class="fab fa-linkedin-in"></i>
+                    </a>
+                </div>
             </div>
-        </header>
+            <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+        </header>        
         <!-- Content section-->
-        <section class="py-5">
+        <section class="py-5 content-section">
             <div class="container my-5">
                 <div class="row justify-content-center">
-                    <div class="col-lg-6">
-                        <h2>About</h2>
-                        <p class="lead">Research Interests: Object Recognition, Image Segmentation (2D, 3D spatial), Transformers, Data Synthesis, Human Motion Capture, Video Language Models, and the intersection between Computer Vision and Natural Language Processing.</p>
-                        <p class="mb-0">I am in the process of completing my Bachelor's degree in Computer Science at Penn State University, Harrisburg Campus.</p>
-                        <p class="mb-0">My research interests span various subjects within Artificial Intelligence, particularly in the field of Computer Vision, but also including Natural Language Processing Models. My goal is to research and refine the algorithms and applications of these technologies to benefit people across different societal bounds, from underdeveloped regions to urban cities.</p>
+                    <div class="col-lg-10" style="text-align: justify;">
+                        <h2 class="section-heading">About</h2>
+                        <h4>Research Interests:</h4>
+                        <ul>
+                            <li>Object Recognition</li>
+                            <li>Image Segmentation (2D, 3D spatial)</li>
+                            <li>Transformers</li>
+                            <li>Data Synthesis</li>
+                            <li>Human Motion Capture</li>
+                            <li>Video Language Models</li>
+                            <li>Intersection between Computer Vision and Natural Language Processing</li>
+                        </ul>
+                        <h4>I am in the process of completing my Bachelor's degree in Computer Science at <a href="https://harrisburg.psu.edu/" target="_blank">Penn State University - Harrisburg</a>. My research interests span various subjects within Artificial Intelligence, particularly in the field of Computer Vision, but also including Natural Language Processing Models. My goal is to research and refine the algorithms and applications of these technologies to benefit people across different societal bounds, from underdeveloped regions to urban cities.</h4>
                     </div>
                 </div>
             </div>
         </section>
+        
+        
         <!-- Image element - set the background image for the header in the line below-->
         <div class="py-5 bg-image-full" style="background-image: url('https://source.unsplash.com/4ulffa6qoKA/1200x800')">
             <!-- Put anything you want here! The spacer below with inline CSS is just for demo purposes!-->
