@@ -10865,12 +10865,18 @@ body {
   
   display: flex; /* Make this a flex container to use justify-content and align-items */
   overflow: hidden; /* Hide overflow - if content go over box, clip it*/
+  
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
 }
 
 .research-image img {
-  max-width: 100%; /* Maximum width of the image is 100% of its container */
-  max-height: 100%; /* Maximum height of the image is 100% of its container */
-  object-fit: contain; /* This will ensure the image is contained within the container without stretching */
+  width: auto; /* Adjust width automatically */
+  height: auto; /* Adjust height automatically */
+  max-width: 100%; /* Ensure the image does not exceed the container's width */
+  max-height: 100%; /* Ensure the image does not exceed the container's height */
+  object-fit: contain; /* Maintain aspect ratio without stretching */
 }
 
 .research-content {
@@ -10921,8 +10927,8 @@ body {
 
 /* Now github and linkedin buttons */
 .icon-btn {
-  color: #fff; /* Icon color */
-  background-color: #333; /* Button background color */
+  background-color: #003366; /* Button background color */
+  color: #DAA520; /* Icon color */
   border-radius: 50%; /* Circular buttons */
   width: 40px; /* Width of the button */
   height: 40px; /* Height of the button */
