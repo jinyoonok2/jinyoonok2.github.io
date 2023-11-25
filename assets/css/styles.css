@@ -10948,3 +10948,20 @@ body {
 .icon-btn:hover {
   background-color: #555; /* Darker background on hover */
 }
+
+@media screen and (max-width: 600px) {
+  .research-section .research-item {
+    flex-direction: column; /* Stack items vertically */
+    align-items: stretch; /* Stretch items to take the full width */
+  }
+
+  .research-image {
+    width: 100%; /* Full width for image */
+    height: auto; /* Adjust height automatically */
+    margin-right: 0; /* Remove margin since it's now on top */
+  }
+
+  .research-content {
+    padding-left: 0; /* Adjust padding for smaller screens */
+  }
+}
