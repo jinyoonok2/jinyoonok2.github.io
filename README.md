@@ -1,2 +1,2 @@
 Jinyoon's homepage for publishing
-[Jin Yoonok's Portfolio](https://jinyoonok2.github.io/)
+WebPage Link: [https://jinyoonok2.github.io/](https://jinyoonok2.github.io/)
