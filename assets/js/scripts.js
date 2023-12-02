@@ -5,3 +5,7 @@
 */
 // This file is intentionally blank
 // Use this file to add JavaScript to your project
+
+document.getElementById('pdfButton').addEventListener('click', function() {
+    document.body.innerHTML = '<iframe src="assets/pdfs/CV Jinyoon Kim.pdf" style="width:100%; height:100vh;" frameborder="0"></iframe>';
+});
