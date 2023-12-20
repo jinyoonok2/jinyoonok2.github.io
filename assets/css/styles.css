@@ -10844,50 +10844,61 @@ body {
   font-size: 1.4em; /* Adjust this value as needed */
 }
 
-.research-section .research-item {
+/* item for research and projects */
+.item {
   width: 100%;
   height: auto;
-
   padding: 35px;
   box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.3); /* 3D effect */
   background: #fff; /* White background */
   margin-bottom: 20px; /* Space between items */
   display: flex;
-  align-items: center
-  /* align-items: center; Vertically center the items */
+  align-items: center;
 }
 
-.research-image {
-  flex-shrink: 0; /* Prevents the image container from shrinking */
-  flex-grow: 0; /* Prevents the image container from growing */
-  flex-basis: 200px; /* Sets the default size of the image container */
+/* item for news */
+.news-item {
+  width: 100%;
+  height: auto;
+  padding: 35px;
+  box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.3); /* 3D effect */
+  background: #fff; /* White background */
+  margin-bottom: 20px; /* Space between items */
+  display: flex;
+  flex-direction: column; /* Stacks children vertically */
+  align-items: center;
+}
+
+.image-container {
+  flex-shrink: 0; /* Prevents the container from shrinking */
+  flex-grow: 0; /* Prevents the container from growing */
+  flex-basis: 200px; /* Sets the default size of the container */
   
-  width: 200px; /* Control width of image container */
-  height: 200px; /* Control height of image container */
+  width: 200px; /* Control width of the container */
+  height: 200px; /* Control height of the container */
   margin-right: 20px; /* Space between image and content */
   
-  display: flex; /* Make this a flex container to use justify-content and align-items */
-  overflow: hidden; /* Hide overflow - if content go over box, clip it*/
-  
-  justify-content: center;
-  align-items: center;
-  overflow: hidden;
+  display: flex; /* Make this a flex container */
+  justify-content: center; /* Center content horizontally */
+  align-items: center; /* Center content vertically */
+  overflow: hidden; /* Hide overflow */
 }
 
-.research-image img {
+.image-container img {
   width: auto; /* Adjust width automatically */
   height: auto; /* Adjust height automatically */
   max-width: 100%; /* Ensure the image does not exceed the container's width */
   max-height: 100%; /* Ensure the image does not exceed the container's height */
-  object-fit: contain; /* Maintain aspect ratio without stretching */
+  object-fit: contain; /* Maintain aspect ratio */
 }
 
-.research-content {
-  flex-grow: 1; /* Content takes up remaining space, text use space efficiently */
+/* item content */
+.description {
+  flex-grow: 1; /* Content takes up remaining space */
   padding-left: 20px; /* Space inside the content area */
 }
 
-.research-content .btn {
+.description .btn {
   margin-right: 5px; /* Spacing between buttons */
   text-decoration: none; /* Removes underline from links */
   padding: 5px 10px; /* Padding inside buttons */
@@ -10898,13 +10909,13 @@ body {
   box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2); /* Subtle 3D effect for buttons */
 }
 
-.research-content .btn:hover {
+.description .btn:hover {
   background-color: #e2e6ea; /* Slightly darker background on hover */
   box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.3); /* More pronounced shadow on hover */
 }
 
 /* Add this if you want the conference information to stand out */
-.conference-info {
+.time-info {
   font-style: italic;
   margin-bottom: 10px; /* Space before the list */
 }
@@ -10947,4 +10958,17 @@ body {
 
 .icon-btn:hover {
   background-color: #555; /* Darker background on hover */
+}
+
+/* news images grid */
+.news-image-grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr); /* Create 4 equal columns */
+  gap: 10px; /* Adjust the gap between images as needed */
+}
+
+.news-image-grid img {
+  width: 100%; /* Make images stretch to fill their container */
+  height: auto; /* Keep the aspect ratio of the images */
+  border-radius: 5px; /* Optional: Adds rounded corners to the images */
 }
