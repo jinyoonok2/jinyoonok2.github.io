@@ -19,12 +19,12 @@
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
                 <div class="collapse navbar-collapse" id="navbarSupportedContent">
                     <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
-                        <li class="nav-item"><a class="nav-link active" aria-current="page" href="index.html">Home</a></li>
+                        <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
                         <li class="nav-item"><a class="nav-link" href="research.html">Research</a></li>
                         <li class="nav-item"><a class="nav-link" href="project.html">Projects</a></li>
                         <li class="nav-item"><a class="nav-link" href="activities.html">Activities</a></li>
                         <li class="nav-item"><a class="nav-link" href="service.html">Services</a></li>
-                        <li class="nav-item"><a class="nav-link" href="documentation.html">Documentation</a></li>
+                        <li class="nav-item"><a class="nav-link active" aria-current="page" href="documentation.html">Documentation</a></li>
                     </ul>
                 </div>
             </div>
@@ -49,46 +49,33 @@
             <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
             <script src="assets/js/scripts.js"></script>
         </header>
-        <!-- Content section-->
-        <section class="py-5 content-section">
-            <div class="container my-5">
-                <h2 class="section-heading">About</h2>
-                <h4>Research Interests:</h4>
-                <ul>
-                    <li>Object Recognition</li>
-                    <li>Image Segmentation (2D, 3D spatial)</li>
-                    <li>Transformers</li>
-                    <li>Video Language Models</li>
-                    <li>Egocentric Vision</li>
-                    <li>Data Synthesis</li>
-                    <li>Intersection between Computer Vision and Natural Language Processing</li>
-                    <li>Human Motion Capture</li>
-                </ul>
-                <h4>I am in the process of completing my Bachelor's degree in Computer Science at <a href="https://harrisburg.psu.edu/" target="_blank">Penn State University - Harrisburg</a>. My research interests span various subjects within Artificial Intelligence, particularly in the field of Computer Vision, but also including Natural Language Processing Models. My goal is to research and refine the algorithms and applications of these technologies to benefit people across different societal bounds, from underdeveloped regions to urban cities.</h4>
+        <!-- Research Section -->
+        <section class="py-5">
+            <div class="container">
+                    <!-- Item 1 -->
+                    <div class="col-12 item my-3">
+                        <div class="row">
+                            <div class="col-3 image-container">
+                                <img src="assets/img/cnn_image.png" alt="Research Image 1"/>
+                            </div>
+                            <div class="col-9 description">
+                                <h3>ACNNS AND LSTM MODELS EXPLAINED</h3>
+                                <p class="time-info">2023.</p>
+                                <ul>
+                                    <li>It explains the history and basic concept of neural networks, emphasizing their evolution and importance in AI and deep learning.</li>
+                                    <li>The document provides an overall exploration of CNNs, including their structure, functioning, and application in areas such as image recognition and numerical data analysis.</li>
+                                    <li>The text delves into the specifics of LSTM, a specialized type of RNN designed to handle long-term dependencies in sequences, discussing its architecture, working mechanism, and applications.</li>
+                                    <li>The document highlights the versatility and significance of both CNNs and LSTM in various real-world applications, such as computer vision, natural language processing, and time-series forecasting.</li>
+                                    <!-- Other bullet points -->
+                                </ul>
+                                <a href="assets/pdfs/CNN_LSTM documentation.pdf" class="btn">document</a>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Repeat for other items -->
+                    <!-- Item 2 -->
             </div>
-            
-            <!-- News Section -->
-            <div class="container my-5">
-                <h2 class="section-heading">News</h2>
-                <!-- News Item 1 -->
-                <div class="news-item my-3">
-                    <h3>ICMLA 2023 Poster Presentation</h3>
-                    <div class="row">
-                        <!-- Four Images -->
-                        <div class="col-3 image-container">
-                            <img src="assets/img/ICMLA2023-presentation1.png" alt="Image Description1">
-                        </div>
-                        <div class="col-3 image-container">
-                            <img src="assets/img/ICMLA2023-presentation2.png" alt="Image Description2">
-                        </div>
-                    </div>
-                    <p class="time-info">December 15 2023</p>
-                    <div class="description">
-                        <p>I had attended ICMLA 2023 with the poster of my paper for the presentation. Thanks for Dr. Kabir and everyone I met at the conference!</p>
-                    </div>
-                </div>
         </section>
-        
         
         <!-- Image element - set the background image for the header in the line below-->
         <div class="py-5 bg-image-full" style="background-image: url('assets/img/maisan-provincial-park.jpg')">
