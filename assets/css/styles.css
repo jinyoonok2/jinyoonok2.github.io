@@ -16,11 +16,12 @@ body, html {
   margin-bottom: 10px; /* More control over spacing between sections */
 }
 
-/* Additional Styling */
+/* img styling */
 img.img-fluid {
-  max-width: 100%; /* Ensures images are responsive */
+  max-width: 75%; /* Ensures images are responsive */
   height: auto; /* Maintains aspect ratio */
 }
+
 
 /* Navigation Bar Styles */
 .navbar {
