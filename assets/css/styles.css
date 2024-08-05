@@ -41,18 +41,15 @@ img.img-fluid {
 
 /* Link Button Styles */
 .link-button {
-  color: #000;
-  text-decoration: underline;
+  color: #1E90FF;
+  text-decoration: none;
   cursor: pointer;
   padding: 0;
   border: none;
   background: none;
 }
 
-/* Additional CSS for keywords */
-.keywords {
-  color: #007bff; /* A distinct blue color to differentiate from the title */
-  font-size: 1.1em; /* Slightly larger font size to make them less prominent than the title */
+.link-button:hover {
+  text-decoration: underline; /* Optional: underline on hover for better visibility */
 }
-
 
