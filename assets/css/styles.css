@@ -22,7 +22,6 @@ img.img-fluid {
   height: auto; /* Maintains aspect ratio */
 }
 
-
 /* Navigation Bar Styles */
 .navbar {
   background-color: #0a3d62; /* Night blue color */
@@ -38,4 +37,14 @@ img.img-fluid {
 
 .navbar-brand {
   color: #fff; /* Ensures that the brand text is white */
+}
+
+/* Link Button Styles */
+.link-button {
+  color: #007bff;
+  text-decoration: underline;
+  cursor: pointer;
+  padding: 0;
+  border: none;
+  background: none;
 }
