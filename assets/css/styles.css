@@ -48,3 +48,11 @@ img.img-fluid {
   border: none;
   background: none;
 }
+
+/* Additional CSS for keywords */
+.keywords {
+  color: #007bff; /* A distinct blue color to differentiate from the title */
+  font-size: 1.1em; /* Slightly larger font size to make them less prominent than the title */
+}
+
+
