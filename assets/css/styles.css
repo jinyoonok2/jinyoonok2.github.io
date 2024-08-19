@@ -18,7 +18,7 @@ body, html {
 
 /* img styling */
 img.img-fluid {
-  max-width: 100%; /* Ensures images are responsive */
+  max-width: 85%; /* Ensures images are responsive */
   height: auto; /* Maintains aspect ratio */
 }
 
