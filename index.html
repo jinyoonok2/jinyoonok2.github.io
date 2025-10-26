@@ -34,6 +34,24 @@
             height: auto;
             border-radius: 0.375rem; /* Tailwind rounded-md */
         }
+        /* Custom class for profile image container */
+        .profile-img-container {
+             width: 50%; /* Half width on small screens */
+        }
+        @media (min-width: 768px) { /* Corresponds to Tailwind's 'md' breakpoint */
+            .profile-img-container {
+                 width: 12.5%; /* 1/8th width on medium screens and up (half of 1/4) */
+            }
+        }
+        /* Custom class for text container next to profile image */
+        .profile-text-container {
+             width: 100%; /* Full width on small screens (stacks) */
+        }
+         @media (min-width: 768px) { /* Corresponds to Tailwind's 'md' breakpoint */
+            .profile-text-container {
+                 width: 87.5%; /* 7/8th width on medium screens and up */
+            }
+        }
     </style>
      <!-- Link to Inter font (Tailwind default) -->
     <link rel="stylesheet" href="https://rsms.me/inter/inter.css">
@@ -57,12 +75,14 @@
     <!-- Content Section -->
     <div class="container mx-auto p-6 mt-6 bg-white rounded-lg shadow-md">
         <div class="flex flex-col md:flex-row items-start">
-            <div class="md:w-1/4 w-full mb-4 md:mb-0 md:mr-6">
+            <!-- Updated image container width using custom class -->
+            <div class="profile-img-container mb-4 md:mb-0 md:mr-6">
                 <!-- Image -->
                 <!-- Restored original src, kept onerror fallback -->
                 <img src="assets/img/jinyoon-kim.png" class="w-full rounded-lg shadow" alt="Profile Image" onerror="this.onerror=null; this.src='https://placehold.co/300x300/e2e8f0/64748b?text=incoming';">
             </div>
-            <div class="md:w-3/4 w-full">
+            <!-- Updated text container width using custom class -->
+            <div class="profile-text-container">
                 <!-- Description and Links -->
                 <h4 class="text-2xl font-semibold mb-2">Jinyoon Kim</h4>
                 <p class="mb-4 text-gray-700 leading-relaxed">
