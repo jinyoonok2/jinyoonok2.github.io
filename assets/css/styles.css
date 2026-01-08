@@ -1,0 +1,55 @@
+/* styles.css */
+body, html {
+  font-family: Arial, sans-serif; /* Sets Arial as the primary font with a generic sans-serif fallback */
+  margin: 0;
+  padding: 0;
+  height: 100%; /* Only if you need the page to always take minimum full viewport height */
+}
+
+/* Adjustments to Bootstrap container and row */
+.container {
+  padding: 10px; /* Adds some padding inside each container */
+}
+
+.row {
+  margin-top: 10px; /* Adds vertical spacing between rows */
+  margin-bottom: 10px; /* More control over spacing between sections */
+}
+
+/* img styling */
+img.img-fluid {
+  max-width: 85%; /* Ensures images are responsive */
+  height: auto; /* Maintains aspect ratio */
+}
+
+/* Navigation Bar Styles */
+.navbar {
+  background-color: #0a3d62; /* Night blue color */
+}
+
+.navbar-dark .navbar-nav .nav-link {
+  color: #fff; /* Ensures that the text is white */
+}
+
+.navbar-dark {
+  background-color: #0a3d62; /* Night blue color */
+}
+
+.navbar-brand {
+  color: #fff; /* Ensures that the brand text is white */
+}
+
+/* Link Button Styles */
+.link-button {
+  color: #1E90FF;
+  text-decoration: none;
+  cursor: pointer;
+  padding: 0;
+  border: none;
+  background: none;
+}
+
+.link-button:hover {
+  text-decoration: underline; /* Optional: underline on hover for better visibility */
+}
+
