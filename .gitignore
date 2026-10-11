@@ -4,3 +4,6 @@
 .#*
 *.pyc
 __pycache__
+
+# Local research notes used to update the webpage
+PROJECT_OVERVIEW*.md
