@@ -13,7 +13,7 @@ nav a { text-decoration: none; }
 section { margin-bottom: 66px; }
 .intro { display: grid; grid-template-columns: minmax(0, 1fr) 200px; gap: 66px; align-items: start; padding-top: 68px; margin-bottom: 38px; }
 .eyebrow, .project-label { font-size: .72rem; font-weight: 650; letter-spacing: .1em; text-transform: uppercase; color: var(--accent); margin: 0 0 10px; }
-h1 { font-family: Georgia, "Times New Roman", serif; font-weight: 400; font-size: clamp(2.8rem, 6vw, 4rem); line-height: 1.1; letter-spacing: -.045em; margin: 0 0 18px; }
+h1 { font-family: Georgia, "Times New Roman", serif; font-weight: 400; font-size: clamp(2.5rem, 5vw, 3.5rem); line-height: 1.1; letter-spacing: -.045em; margin: 0 0 18px; }
 .intro-focus { color: var(--ink); font-size: 1.22rem; line-height: 1.5; margin-bottom: 22px; }
 p { color: var(--muted); margin: 0 0 15px; }
 strong { font-weight: 600; color: var(--ink); }
